@@ -1,0 +1,51 @@
+.footer {
+    position: relative;
+    margin-top: 180px;
+    padding: 0 50px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer__address {
+    max-width: 265px;
+}
+
+.footer__menu {
+    position: relative;
+}
+
+.footer__menu-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__menu-link {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.footer__menu-link_active {
+    text-decoration: none;
+}
+
+.footer__social-list {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    justify-self: end;
+}
+
+.footer__social-list-item {
+    width: 48px;
+    height: 48px;
+}
+
+.footer__social-link-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

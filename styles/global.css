@@ -1,3 +1,10 @@
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+
+  --font-regular: Raleway, sans-serif;
+}
+
 *,
 *::before,
 *::after {
@@ -5,8 +12,9 @@
 }
 
 body {
-  width: 1100px;
-  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto 82px;
   font-family: Raleway, sans-serif;
 }
 
@@ -33,6 +41,6 @@ img {
   width: 100%;
 }
 
-button {
+button, address {
   font: inherit;
 }
