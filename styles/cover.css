@@ -23,7 +23,6 @@
     position: relative;
 
     display: block;
-    font-family: var(--font-regular);
     font-size: 100px;
     font-weight: 700;
     color: var(--white);

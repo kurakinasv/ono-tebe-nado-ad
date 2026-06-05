@@ -1,5 +1,4 @@
 .text-18 {
-    font-family: var(--font-regular);
     font-size: 18px;
     font-weight: 400;
     color: var(--black);
@@ -8,7 +7,6 @@
 }
 
 .text-20 {
-    font-family: var(--font-regular);
     font-size: 20px;
     font-weight: 400;
     color: var(--black);
@@ -17,7 +15,6 @@
 }
 
 .text-22 {
-    font-family: var(--font-regular);
     font-size: 22px;
     font-weight: 400;
     color: var(--black);
@@ -26,7 +23,6 @@
 }
 
 .title-40 {
-    font-family: var(--font-regular);
     font-size: 40px;
     font-weight: 700;
     color: var(--black);
